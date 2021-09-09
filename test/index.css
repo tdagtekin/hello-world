@@ -1,0 +1,15 @@
+p { color: black;
+	font-family: calibri;
+ }
+.text_titre { 
+	color: Black;
+	font-family: calibri; }
+small {
+	font-family: calibri;
+	font-size: initial;
+}
+.dates{
+	word-spacing: 30px;
+	font-family: calibri;
+	font-size: initial;
+}
