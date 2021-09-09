@@ -86,12 +86,17 @@ position: absolute;
   width: 80%;
   padding-left: 30px;
   padding-top: 20px;
-  padding-right: 50px;
 }
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+hr{width: 70%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;  
 }
 @media screen and (max-width: 600px) {
   .column_left {
@@ -99,5 +104,8 @@ position: absolute;
   }
   .column_right {
     width: 100%;
+  }
+  hr{
+    width: 90%;
   }
 }
